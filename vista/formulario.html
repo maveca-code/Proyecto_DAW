@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trazabilidad</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type='text/css' href='vista/css/form.css'>
+    </head>
+    <body>
+        <h2 class="texto">Acceso de usuarios</h2>
+        <div class="Registro"><!--Creo el formulario de acceso a la aplicación-->
+            <form method="post" action="modelo/validacion.php">
+                <span class="fontawesome-user"></span><input type="text" name="usuario" placeholder="Nombre de usuario" >
+                <span class="fontawesome-lock"></span><input type="password" name="pass" placeholder="Contraseña">
+                <input type="submit" name="acceso" value="Acceder">
+            </form>
+        </div>
+    </body>
+</html>
